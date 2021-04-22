@@ -14,6 +14,7 @@ body{
 }
 .intro p{
     padding: auto 2em;
+    text-align: justify;
 }
 .intro a:link, a:visited {
     margin-bottom: 0.5em;
@@ -21,9 +22,7 @@ body{
     border-radius: 0.3em;
     color: white;
     padding: 14px 25px;
-    /* text-align: center; */
     text-decoration: none;
-    /* display: inline-block; */
   }
 footer{
     background-color: #e74c3c;
