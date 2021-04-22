@@ -15,7 +15,18 @@ body{
 .intro p{
     padding: auto 2em;
 }
+.intro a:link, a:visited {
+    margin-bottom: 0.5em;
+    background-color: #2980b9;
+    border-radius: 0.3em;
+    color: white;
+    padding: 14px 25px;
+    /* text-align: center; */
+    text-decoration: none;
+    /* display: inline-block; */
+  }
 footer{
+    background-color: #e74c3c;
     position: fixed;
     bottom: 0;
     left: 0;
