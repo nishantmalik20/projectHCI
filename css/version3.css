@@ -92,9 +92,25 @@ h2{
     margin: 12px auto;
 }
 
-
-
-
+.deal{
+    display: flex;
+    justify-content: center;
+}
+.off{
+    margin-top: 0.3em;
+    margin-left: 15px;
+    text-align: center;
+}
+.off img{
+    width: 100%;
+}
+.get-now{
+    text-decoration: none;
+    background-color: #2980b9;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    color: white;
+}
 
 footer{
     background-color: #e74c3c;
