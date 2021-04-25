@@ -30,6 +30,10 @@ h3{
     padding: 14px 25px;
     text-decoration: none;
   }
+  .please{
+      color: #e7a33c;
+      animation: blink 1s steps(1, end) infinite;
+  }
 footer{
     background-color: #e74c3c;
     position: fixed;
@@ -41,3 +45,14 @@ footer{
     color: white;
 }
 
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
