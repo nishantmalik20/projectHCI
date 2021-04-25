@@ -2,6 +2,12 @@
 body{
     background-color: #2980b9;
 }
+h1, h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 16px;
+}
 .intro{
     display: grid;
     place-items: center;
@@ -13,7 +19,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .intro p{
-    padding: auto 2em;
+    margin-top: -9px;
     text-align: justify;
 }
 .intro a:link, a:visited {
@@ -34,3 +40,4 @@ footer{
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+
